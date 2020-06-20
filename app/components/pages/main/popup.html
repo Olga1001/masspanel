@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=375, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		@import "header.html"
+		<div class="container">
+			<nav aria-label="breadcrumb" class="d-mob-none">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"> <a href="#">Личный кабинет / </a></li>
+				  	<li class="breadcrumb-item active">История заказов</li>
+				</ol>
+			</nav>
+			<a href="#" class="back">‹ назад в Личный кабинет</a>
+			<section class="history">
+				<h2 class="title_v2">История заказов</h2>
+				<div class="row d-mob-none">
+					<a href="#" class="btn-blue">
+						<span class="icon_add"><span class="icon_add_center"></span></span>
+						Новый заказ ›
+					</a>
+					<a href="#" class="btn-blue">
+						Поддержка ›
+					</a>
+					<a href="#" class="btn-blue">
+						Личный кабинет ›
+					</a>
+				</div>
+				
+				<div class="order-movement">
+					<h3 class="title_v3">Движение заказов</h3>
+					<div class="order-movement__box">
+						<div class="order-movement__item">
+							<p class="text-16-light">Всего заказов</p>
+							<p class="title_v3 c-black">0</p>	
+						</div>									
+						<div class="order-movement__item bg-light-yellow">
+							<p class="text-16-light">В ожидании</p>
+							<p class="title_v3 c-black">0</p>	
+						</div>
+						<div class="order-movement__item bg-light-blue">
+							<p class="text-16-light">В работе</p>
+							<p class="title_v3 c-black">0</p>	
+						</div>
+						<div class="order-movement__div">
+							<div class="order-movement__item bg-light-green">
+								<p class="text-16-light">Выполненные</p>
+								<p class="title_v3 c-black">0</p>	
+							</div>
+							<div class="order-movement__item bg-light-pink">
+								<p class="text-16-light">Отмененные</p>
+								<p class="title_v3 c-black">0</p>	
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="search">
+					<h3 class="title_v3">Поиск <span class="d-mob-none">по заказам</span> <span class="mob-inline"> заказа</span></h3>
+					<form class="search-form">
+						<input type="text" placeholder="Введите ссылку на видео или номер заказа" required>
+						<button type="submit" class="btn-submit">Поиск</button>
+					</form>
+				</div>
+				<div class="channel-filter d-mob-none">
+					<h3 class="title_v3">Фильтр по каналам</h3>
+					<div class="row">
+						<a href="#" class="text-16-bold c-green">Все каналы</a>
+						<a href="#" class="text-16-bold">Wylsacom <span> (500)</span></a>
+						<a href="#" class="text-16-bold c-blue">Дневник Хача <span> (95)</span></a>
+						<a href="#" class="text-16-bold c-blue">Jon Olsson <span> (81)</span></a>
+						<a href="#" class="text-16-bold">GlebaTV <span> (62)</span></a>
+						<a href="#" class="text-16-bold">Mental <span> (41)</span></a>
+						<a href="#" class="text-16-bold">CTC <span> (39)</span></a>
+						<a href="#" class="text-16-bold">FOX Nederland <span> (34)</span></a>
+						<a href="#" class="text-16-bold">Математик МГУ <span> (30)</span></a>
+						<a href="#" class="text-16-bold c-blue">Канал Шока <span> (3)</span></a>	
+					</div>
+				</div>
+				<div class="orders">
+					<h3 class="title_v3">Ваши заказы</h3>
+					<div class="order">
+						<div class="order__top">
+							<img src="img/preview.png" alt="preview" class="order__img">
+							<div class="order__top_col">
+								<a href="#" class="order_title">Распаковка MacBook Air 2018 с Touch ID и Retina экраном. Стоит своих денег? <span class="arrow"> →</span></a>
+								<ul class="list">
+									<li class="list-item">
+										<p class="c-gray">Статус :</p>
+										<div class="status">
+											<div class="circle bg-blue"></div>
+											<p>в работе</p>
+										</div>
+									</li>
+									<li class="list-item">
+										<p class="c-gray">Сумма : 1 260 руб.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="order__content active">
+							<div class="for-yt d-mob-none">
+								<h4 class="text-16-bold c-black">На YouTube:</h4> 	
+								<ul class="row">
+									<li class="order__for-yt">
+										<p class="c-gray">Просмотры</p>
+										<p class="c-gray">200 000  <span class="c-black"> (+200 000)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Комментарии</p>
+										<p class="c-gray">212   <span class="c-black"> (+95)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Лайки</p>
+										<p class="c-gray">1 500  <span class="c-black"> (+ 453)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Подписки</p>
+										<p class="c-gray">1 000 020   <span class="c-black"> (+19 545)</span></p>
+									</li>
+								</ul>
+							</div>
+							<div class="order-by-video">
+								<h4 class="text-16-bold c-black">Заказы по этому видео:</h4> 	
+								<div class="table">
+									<div class="table__head">
+										<div class="table__head_item">
+											<p class="c-gray">Просмотры <span class="d-mob-none"> для улучшения ранжирования</span>	</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">В заказе</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">№ заказа</p>
+										</div>
+									</div>
+									<ul class="table__body">
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p class="">🚀 8 тыс в сутки┃👀 3мин┃ 🇷🇺	Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-green d-mob-none"></div>
+												<p>🚀 500 тыс в сутки┃👀 10 мин┃🇷🇺 Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-green"></div>
+													</div>
+													<p>9 000 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1246</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray">Лайки <span class="d-mob-none"> на видео</span>	</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-red d-mob-none"></div>
+												<p class="line-through">🚀 200 в сутки┃🇷🇺 <span class="d-mob-none">русскоговорящие пользователи</span> <span class="mob-inline">на русском</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-red"></div>
+													</div>
+													<p>1 500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray d-mob-none">Репосты</p>
+												<p class="c-gray mob-inline">Комментарии</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p>в одноклассниках┃🚀 200 сутки ┃🇷🇺 <span class="d-mob-none">Россия</span> <span class="mob-inline"> от русскоговорящих пользователей</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>90 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1248</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+									</ul>
+									<a href="#" class="link-blue">
+										<span class="add bg-light-gray"></span>
+										Дополнить заказ ›
+									</a>
+								</div>
+							</div>
+							<div class="order__bottom">
+								<a href="#" class="link-blue text-16">Вопрос по заказу ›</a>
+								<a href="#" class="link-blue text-16">Сообщить о проблеме ›</a>
+							</div>
+							
+						</div>
+					</div>
+					<div class="order">
+						<div class="order__top">
+							<img src="img/preview.png" alt="preview" class="order__img">
+							<div class="order__top_col">
+								<a href="#" class="order_title">Собрали первый в мире компьтер - грузовик! <span class="arrow"> →</span></a>
+								<ul class="list">
+									<li class="list-item">
+										<div class="status bg-light-green m-0">
+											<div class="circle bg-green"></div>
+											<p>выполнен</p>
+										</div>
+									</li>
+								</ul>
+								<a href="#" class="more">Посмотреть весь заказ <span class="more-arrow"> ›</span></a>
+							</div>
+					
+						</div>
+						<div class="order__content">
+							<div class="for-yt d-mob-none">
+								<h4 class="text-16-bold c-black">На YouTube:</h4> 	
+								<ul class="row">
+									<li class="order__for-yt">
+										<p class="c-gray">Просмотры</p>
+										<p class="c-gray">200 000  <span class="c-black"> (+200 000)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Комментарии</p>
+										<p class="c-gray">212   <span class="c-black"> (+95)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Лайки</p>
+										<p class="c-gray">1 500  <span class="c-black"> (+ 453)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Подписки</p>
+										<p class="c-gray">1 000 020   <span class="c-black"> (+19 545)</span></p>
+									</li>
+								</ul>
+							</div>
+							<div class="order-by-video">
+								<h4 class="text-16-bold c-black">Заказы по этому видео:</h4> 	
+								<div class="table">
+									<div class="table__head">
+										<div class="table__head_item">
+											<p class="c-gray">Просмотры <span class="d-mob-none"> для улучшения ранжирования</span>	</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">В заказе</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">№ заказа</p>
+										</div>
+									</div>
+									<ul class="table__body">
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p class="">🚀 8 тыс в сутки┃👀 3мин┃ 🇷🇺	Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-green d-mob-none"></div>
+												<p>🚀 500 тыс в сутки┃👀 10 мин┃🇷🇺 Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-green"></div>
+													</div>
+													<p>9 000 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1246</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray">Лайки <span class="d-mob-none"> на видео</span>	</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-red d-mob-none"></div>
+												<p class="line-through">🚀 200 в сутки┃🇷🇺 <span class="d-mob-none">русскоговорящие пользователи</span> <span class="mob-inline">на русском</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-red"></div>
+													</div>
+													<p>1 500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray d-mob-none">Репосты</p>
+												<p class="c-gray mob-inline">Комментарии</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p>в одноклассниках┃🚀 200 сутки ┃🇷🇺 <span class="d-mob-none">Россия</span> <span class="mob-inline"> от русскоговорящих пользователей</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>90 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1248</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+									</ul>
+									<a href="#" class="link-blue">
+										<span class="add bg-light-gray"></span>
+										Дополнить заказ ›
+									</a>
+								</div>
+							</div>
+							<div class="order__bottom">
+								<a href="#" class="link-blue text-16">Вопрос по заказу ›</a>
+								<a href="#" class="link-blue text-16">Сообщить о проблеме ›</a>
+							</div>
+							
+						</div>
+					</div>
+					<div class="order">
+						<div class="order__top">
+							<img src="img/preview.png" alt="preview" class="order__img">
+							<div class="order__top_col">
+								<a href="#" class="order_title">Распаковка MacBook Air 2018 с Touch ID и Retina экраном. Стоит своих денег? <span class="arrow"> →</span></a>
+								<ul class="list">
+									<li class="list-item">
+										<p class="c-gray">Статус :</p>
+										<div class="status">
+											<div class="circle bg-blue"></div>
+											<p>в работе</p>
+										</div>
+									</li>
+									<li class="list-item">
+										<p class="c-gray">Сумма : 1 260 руб.</p>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="order__content active">
+							<div class="for-yt d-mob-none">
+								<h4 class="text-16-bold c-black">На YouTube:</h4> 	
+								<ul class="row">
+									<li class="order__for-yt">
+										<p class="c-gray">Просмотры</p>
+										<p class="c-gray">200 000  <span class="c-black"> (+200 000)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Комментарии</p>
+										<p class="c-gray">212   <span class="c-black"> (+95)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Лайки</p>
+										<p class="c-gray">1 500  <span class="c-black"> (+ 453)</span></p>
+									</li>
+									<li class="order__for-yt">
+										<p class="c-gray">Подписки</p>
+										<p class="c-gray">1 000 020   <span class="c-black"> (+19 545)</span></p>
+									</li>
+								</ul>
+							</div>
+							<div class="order-by-video">
+								<h4 class="text-16-bold c-black">Заказы по этому видео:</h4> 	
+								<div class="table">
+									<div class="table__head">
+										<div class="table__head_item">
+											<p class="c-gray">Просмотры <span class="d-mob-none"> для улучшения ранжирования</span>	</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">В заказе</p>
+										</div>
+										<div class="table__head_item d-mob-none">
+											<p class="c-gray">№ заказа</p>
+										</div>
+									</div>
+									<ul class="table__body">
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p class="">🚀 8 тыс в сутки┃👀 3мин┃ 🇷🇺	Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-green d-mob-none"></div>
+												<p>🚀 500 тыс в сутки┃👀 10 мин┃🇷🇺 Россия</p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-green"></div>
+													</div>
+													<p>9 000 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1245</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1246</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray">Лайки <span class="d-mob-none"> на видео</span>	</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-red d-mob-none"></div>
+												<p class="line-through">🚀 200 в сутки┃🇷🇺 <span class="d-mob-none">русскоговорящие пользователи</span> <span class="mob-inline">на русском</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-red"></div>
+													</div>
+													<p>1 500 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1245</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+										<li class="table__head">
+											<div class="table__head_item">
+												<p class="c-gray d-mob-none">Репосты</p>
+												<p class="c-gray mob-inline">Комментарии</p>
+											</div>
+										</li>
+										<li class="table__body_li">
+											<div class="table__body_item">
+												<div class="circle bg-blue d-mob-none"></div>
+												<p>в одноклассниках┃🚀 200 сутки ┃🇷🇺 <span class="d-mob-none">Россия</span> <span class="mob-inline"> от русскоговорящих пользователей</span></p>	
+											</div>
+											<div class="table__body_item">
+												<div class="mob">
+													<div class="min-width">
+														<div class="circle bg-blue"></div>
+													</div>
+													<p>90 <span class="weight-lato-light"> шт.</span></p>
+													<p class="min-width text-12">#1246</p>
+												</div>
+												<button type="button" class="btn-gray d-mob-none">
+													<span class="add"></span>
+												</button>
+											</div>
+											<div class="table__body_item d-mob-none">
+												<p class="text-12">#1248</p>
+												<button type="button" class="btn-gray">
+													<img src="img/copy.svg" alt="copy" class="copy-icon">
+												</button>
+											</div>
+										</li>
+									</ul>
+									<a href="#" class="link-blue">
+										<span class="add bg-light-gray"></span>
+										Дополнить заказ ›
+									</a>
+								</div>
+							</div>
+							<div class="order__bottom">
+								<a href="#" class="link-blue text-16">Вопрос по заказу ›</a>
+								<a href="#" class="link-blue text-16">Сообщить о проблеме ›</a>
+							</div>
+							
+						</div>
+					</div>
+					<a href="#" class="btn-more"><img src="img/more.svg" alt="more" class="ellipsis">загрузить еще</a>
+				</div>
+			</section>
+			
+		</div>
+
+		<div class="popup active" id="popup">
+			<div class="popup__container">
+				<a href="#" class="close" id="close"></a>
+				<h2 class="title_v2 c-black">Подробнее о заказе #1247</h2>
+				<div class="popup__info_col mob-flex">
+					<p class="c-gray">Статус заказа</p>
+					<div class="popup__info-right">
+						<div class="status">
+							<div class="circle bg-blue"></div>
+							<p>в работе</p>
+						</div>
+					</div>
+				</div>
+				<div class="popup__info">
+				
+					<div class="popup__info_col">
+						<p class="c-gray">Услуга</p>
+						<p class="text-16">Репосты┃в одноклассниках┃🚀 200 в сутки┃🇷🇺 Россия</p>
+					</div>	
+					<div class="popup__info_col">
+						<p class="c-gray">Расширенная гарантия</p>
+						<p class="text-16">× не оформлена <a href="#" class="c-blue">(?)</a></p>
+					</div>
+					<div class="popup__info_col d-none">
+						<p class="c-gray">Статус заказа</p>
+						<div class="popup__info-right">
+							<div class="status">
+								<div class="circle bg-blue"></div>
+								<p>в работе</p>
+							</div>
+						</div>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Заказано</p>
+						<div class="row popup__info-right">
+							<button type="button" class="btn-gray active">
+								<span class="add"></span>
+							</button>
+							<p class="text-16">90 шт.</p>
+						</div>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Оплачено</p>
+						<p class="text-16">126 руб.</p>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Стартовое количество</p>
+						<p class="text-16">900 шт.</p>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Осталось выполнить</p>
+						<p class="text-16">- шт.</p>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Номер заказа</p>
+						<div class="row popup__info-right">
+							<button type="button" class="btn-gray active">
+								<img src="img/copy.svg" alt="copy" class="copy-icon">
+							</button>
+							<p class="text-16">#1247</p>
+						</div>
+					</div>
+					<div class="popup__info_col">
+						<p class="c-gray">Дата и время заказа</p>
+						<p class="text-16">11.12.2019, 14:47 </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		@import "footer.html"
+	</div>
+
+	<script src="js/common.js"></script>
+</body>
+</html>

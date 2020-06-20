@@ -1,0 +1,759 @@
+@import "fonts"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  line-height: 1
+
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+*::-webkit-input-placeholder
+  font-family: "AvenirNext-Regular", sans-serif
+  font-size: 14px
+  line-height: 1
+  color: #4a4a4a
+
+*:-moz-placeholder
+  font-family: "AvenirNext-Regular", sans-serif
+  font-size: 14px
+  line-height: 1
+  color: #4a4a4a
+
+*::-moz-placeholder
+  font-family: "AvenirNext-Regular", sans-serif
+  font-size: 14px
+  line-height: 1
+  color: #4a4a4a
+
+*:-ms-input-placeholder
+  font-family: "AvenirNext-Regular", sans-serif
+  font-size: 14px
+  line-height: 1
+  color: #4a4a4a
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+  content: ''
+  content: none
+
+a
+  outline: none
+  text-decoration: none
+  color: #000000
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+body
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  font-size: 16px
+  background-color: #151515
+
+img
+  display: block
+  object-fit: contain
+
+input, textarea
+  outline: none
+  color: #000
+  resize: none
+  -webkit-appearance: none
+  border-radius: 3px
+  box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5)
+  border: solid 1px #979797
+  background-color: #ffffff
+  font-family: "AvenirNext-Regular", sans-serif
+  font-size: 14px
+  line-height: 1
+  padding: 9px 20px
+  color: #000000
+
+button
+  cursor: pointer
+  outline: none
+  border: none
+
+button:focus
+  outline: none
+
+p
+  font-size: 14px
+  font-family: "Lato-Regular", sans-serif
+
+strong
+  font-family: "SFUIText-Bold", sans-serif
+  font-style: normal
+  font-weight: bold
+
+.container
+  max-width: 860px
+  width: 100%
+  margin: 0 auto
+  padding: 0 20px
+
+.row 
+  display: flex
+  flex-wrap: wrap
+
+.logo
+  font-family: "SFUIText-Bold", sans-serif
+  font-size: 24px;
+  font-weight: bold
+  position: relative 
+  z-index: 1
+  &:before 
+    content: ''
+    position: absolute
+    left: -3px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    height: 31px
+    background-color: #7dc7d9
+    z-index: -1
+
+.header
+  background-color: #ffffff
+  &__container
+    max-width: 930px
+    padding: 10px 13px 10px 28px
+    min-height: 58px
+    widows: 100%
+    margin: 0 auto
+    display: flex 
+    justify-content: space-between
+    align-items: center
+  .link 
+    margin-left: 50px
+
+.icon_add
+  width: 30px;
+  height: 30px;
+  background-color: rgba(61, 217, 63, 0.5) 
+  position: relative
+  border-radius: 50%
+  display: block
+  margin: 0 10px
+  &:before, &:after  
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    width: 2px 
+    height: 12px
+    background: #ffffff
+    z-index: 2
+  &:after
+    width: 12px 
+    height: 2px
+
+.icon_add_center
+  position: absolute
+  background: #3ccf3e
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  width: 21px
+  border-radius: 50%
+  height: 21px
+  z-index: 1
+
+.link
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 18px
+  font-weight: 500
+  display: flex 
+  align-items: center
+
+.breadcrumb
+  padding: 20px 0 6px
+  display: inline-block
+
+.breadcrumb-item, .breadcrumb-item a
+  float: left
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 14px
+  font-weight: 500
+  color: rgba(#989898, 0.4)
+  &.active
+    color: rgba(#0270c9, 0.4)
+    margin-left: 3px
+
+.row .btn-blue
+  width: calc(33.33% - 14px)
+  margin-bottom: 30px
+  margin-right: 20px
+  min-width: 225px
+
+.btn-blue
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 18px
+  font-weight: 500
+  color: #ffffff
+  border-radius: 3px
+  background-color: #0270c9
+  line-height: 61px
+  display: flex
+  align-items: center 
+  padding: 0 30px
+  &:last-child
+    margin-right: 0
+  .icon_add
+    margin-left: -10px
+
+.history
+  .title_v2
+    margin-bottom: 50px
+
+.order-movement
+  &__box
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 10px 0
+    width: 100%
+    padding: 10px 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    widows: 100%
+  &__item
+    border-radius: 2px
+    padding: 10px
+    height: 73px
+    display: flex 
+    flex-direction: column
+    justify-content: space-between
+    width: 150px
+    margin: 10px 10px 10px 0
+    position: relative
+    &:first-child
+      border: solid 1px #f2f2f2
+      
+    &.bg-light-yellow, &.bg-light-blue
+      &:before 
+        content: ''
+        position: absolute
+        left: calc(100% + 10px)
+        top: 50%
+        transform: translateY(-50%)
+        background: url("../img/to.svg") no-repeat center / contain
+        height: 50px
+        width: 20px
+
+.search
+  display: flex 
+  align-items: center
+  padding-top: 20px
+  &-form
+    display: flex
+    flex-wrap: wrap
+    margin-left: 30px
+    width: 100%
+    input
+      width: calc(100% - 30px - 110px)
+      margin-right: 30px
+
+.btn-submit
+  border-radius: 3px
+  background-color: #0270c9
+  line-height: 37px
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 16px
+  font-weight: 500
+  letter-spacing: -0.4px
+  text-align: center
+  color: #ffffff
+  padding: 0 30px
+
+.channel-filter
+  padding-top: 50px
+  .text-16-bold
+    margin-right: 19px
+    margin-top: 10px 
+    span 
+      font-family: "GothamPro-Medium", sans-serif
+      font-size: 12px
+      font-weight: normal
+
+.orders
+  padding-top: 50px
+
+.order
+  border-radius: 3px
+  background-color: #ffffff
+  padding: 30px 20px
+  margin-top: 10px
+  &__img
+    width: 225px
+    height: 127px
+    border-radius: 2px
+    object-fit: cover 
+    flex-shrink: 0
+  &__top
+    display: flex
+    &_col
+      padding: 10px 30px
+  &_title
+    font-family: "Lato-Bold", sans-serif
+    font-size: 20px
+    font-weight: bold
+    padding-bottom: 5px
+    display: block
+  &__content
+    max-width: 700px
+    widows: 100%
+    margin: 30px auto 20px
+    display: none
+    &.active 
+      display: block
+  &__for-yt
+    width: 50%
+    display: flex
+    margin-top: 10px
+    &:nth-child(2n+2)
+      padding-left: 20px
+    p:first-child
+      width: 110px
+      
+.for-yt
+  padding: 0 35px
+
+.arrow
+  color: #0270c9
+
+.list-item
+  display: flex 
+  align-items: center
+  margin-top: 5px
+
+.circle
+  border-radius: 50%
+  width: 10px
+  height: 10px
+  background-color: #0270c9
+  margin: 0 10px
+  flex-shrink: 0
+
+.status
+  display: flex 
+  align-items: center
+  margin: 0 6px
+  border-radius: 27px
+  background-color: #e2f5ff
+  line-height: 24px
+  padding-right: 10px
+  width: fit-content
+  white-space: nowrap
+
+.order-by-video
+  margin-top: 30px
+  .text-16-bold
+    padding-left: 35px
+
+.table
+  margin-top: 5px
+
+.table__body_li
+  position: relative
+  overflow: hidden
+  &:before 
+    content: ''
+    position: absolute
+    border-bottom: 1px dashed #e3e3e3
+    background: none
+    height: 2px
+    width: calc(100% - 47px - 35px)
+    bottom: 7px
+    transition: all 0.3s ease
+    left: 35px
+  p 
+    transition: all 0.3s ease
+    background: #ffffff
+    position: relative
+    z-index: 2
+    padding: 0 10px
+  &:hover 
+    background-color: #f2f2f2
+    &:before
+      opacity: 0
+    p 
+      background-color: #f2f2f2
+    .btn-gray
+      opacity: 1
+      pointer-events: auto
+    .table__body_item
+      &:nth-child(2), &:nth-child(3)
+        p
+          color: #0270c9
+          font-weight: bold
+          font-family: "Lato-Bold", sans-serif
+
+.table__head, .table__body_li
+  display: flex
+  border-radius: 2px
+  transition: all 0.3s ease
+  min-height: 27px
+
+.table__head_item:first-child 
+  padding-left: 35px
+
+.table__head_item
+  padding-right: 47px
+  &:nth-child(2)
+    padding-right: 57px
+
+.table__head_item, .table__body_item
+  display: flex
+  align-items: center
+  padding-left: 5px
+  overflow: hidden
+  &:first-child
+    width: calc(100% - 153px - 140px)
+    p 
+      padding-left: 0
+      letter-spacing: -0.34px
+      &.c-gray 
+        letter-spacing: normal
+  &:nth-child(2)
+    width: 163px
+    justify-content: flex-end
+   
+  &:nth-child(3)
+    width: 130px
+    justify-content: flex-end
+    .text-12
+      padding-right: 0
+
+.btn-gray
+  width: 37px
+  min-height: 27px
+  height: 100%
+  border-radius: 2px
+  background-color: #dcdcdc
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-left: 10px
+  flex-shrink: 0
+  opacity: 0
+  pointer-events: none
+  transition: all 0.3s ease
+  &.active 
+    opacity: 1
+    pointer-events: auto
+  &:hover, &.active:hover  
+    background-color: #dcdcdc
+
+.add
+  position: relative 
+  width: 18px
+  height: 18px
+  background-color: #0270c9
+  border-radius: 50%
+  display: block
+  &:before, &:after 
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%,-50%)
+    background-color: #ffffff
+    width: 9px
+    height: 2px
+  &:after 
+    width: 2px 
+    height: 9px
+
+.order__bottom
+  display: flex 
+  flex-wrap: wrap
+  justify-content: center
+  .link-blue 
+    padding: 35px 25px 0
+    letter-spacing: normal
+
+.link-blue
+  display: flex 
+  align-items: center 
+  font-family: "Lato-Semibold", sans-serif
+  font-size: 14px
+  font-weight: 600
+  letter-spacing: -0.34px
+  color: #0270c9
+  padding: 15px 12px
+  .add
+    margin-right: 6px
+
+.more
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 16px
+  font-weight: 500
+  letter-spacing: -0.4px
+  color: #0270c9
+  display: flex
+  align-items: center
+  margin-top: 20px
+  &-arrow
+    display: block
+    height: 6px
+    width: 21px
+    transform: rotate(360deg)
+    writing-mode: vertical-rl;
+
+.btn-more
+  display: flex 
+  justify-content: center 
+  align-items: center
+  height: 59px
+  width: 100%
+  border-radius: 3px
+  background-color: #0270c9
+  margin: 10px 0 0 0
+  font-family: "SFUIText-Regular", sans-serif
+  font-size: 12px
+  color: #ffffff
+
+.ellipsis
+  width: 19px
+  height: 19px
+  margin-right: 10px
+  border-radius: 50%
+
+.footer
+  display: flex 
+  align-items: center
+  padding: 100px 0
+  .row
+    justify-content: center
+
+.footer-link
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 12px
+  font-weight: 500
+  color: #ffffff
+  padding: 0 23px
+
+.burger
+  position: relative
+  width: 25px
+  height: 25px
+  display: none
+  margin-right: 11px
+  &:before, &:after 
+    content: ''
+    position: absolute
+    left: 50%
+    transform: translateX(-50% )
+    background: #000000
+    height: 3px
+    width: 100%
+  &:before
+    top: 7.5px
+  &:after 
+    bottom: 7.5px
+
+.back
+  display: none
+  font-family: "SFUIText-Medium", sans-serif
+  font-size: 14px
+  font-weight: 500
+  text-align: center
+  color: #0270c9
+  margin: 32px auto 5px
+
+.popup
+  position: fixed 
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  max-width: 924px
+  width: 100%
+  border-radius: 1px;
+  background-color: #ffffff
+  padding: 70px 20px 105px
+  z-index: 9
+  overflow-y: auto
+  opacity: 0 
+  pointer-events: none 
+  transition: all 0.3s ease
+  &.top 
+    top: 0
+    transform: translate(-50%,0%)
+    height: 100vh
+  &.active 
+    opacity: 1
+    pointer-events: auto
+  &__container
+    max-width: 520px
+    width: 100%
+    margin: 0 auto
+  .title_v2
+    text-align: center
+    margin-bottom: 70px
+  .text-16
+    letter-spacing: -0.39px
+    position: relative
+    z-index: 2
+    min-height: 29px
+    display: flex 
+    align-items: center 
+    .c-blue
+      margin-left: 4px
+  .c-gray 
+    margin-bottom: 1px
+  .btn-gray
+    margin: 0 10px 0 -47px
+    background: none
+    position: relative
+    z-index: 1
+    min-height: 29px
+    &:before 
+      content: ''
+      position: absolute
+      z-index: -1
+      width: 135px
+      left: 0
+      top: 0
+      height: 100%
+      background: linear-gradient(to left, rgba(250, 250, 250, 0), rgba(#f2f2f2, 0.9))
+  .row
+    align-items: center
+  &__info
+    display: flex 
+    flex-wrap: wrap
+    padding-left: 47px
+    &_col
+      width: auto
+      margin-bottom: 15px
+      &:first-child
+        width: 100%
+      &:nth-child(even)
+        width: 190px
+        margin-right: 20px
+  .status
+    margin: 5px 0 0 0       
+
+.close 
+  position: absolute
+  width: 30px
+  height: 30px
+  right: 30px
+  top: 30px
+  background: url("../img/close.svg") no-repeat center / contain
+
+.title_v2
+  font-family: "SFUIText-Heavy", sans-serif
+  font-size: 36px
+  font-weight: 900
+  color: #ffffff
+  
+.title_v3
+  font-family: "SFUIText-Bold", sans-serif
+  font-size: 20px
+  font-weight: bold
+  color: #ffffff
+  flex-shrink: 0
+
+.text-16
+  font-size: 16px
+
+.text-16-light  
+  font-family: "SFUIText-Light", sans-serif
+  font-size: 16px
+  font-weight: 300
+  color: #000000
+
+.text-16-bold 
+  font-family: "Lato-Bold", sans-serif
+  font-size: 16px
+  font-weight: bold
+  color: #ffffff
+  &.c-green 
+    font-family: "SFUIText-Medium", sans-serif
+    font-weight: 500
+
+.text-12
+  font-family: "SFUIText-Light", sans-serif
+  font-size: 12px
+  font-weight: 300
+  color: #989898
+
+.weight-lato-light
+  font-family: "SFUIText-Light", sans-serif
+  font-weight: 300
+
+.line-through
+  text-decoration: line-through #ff0000
+
+.c-green 
+   color: #3ccf3e
+.c-blue 
+  color: #008dff
+.c-black
+  color: #000000
+.c-gray 
+  color: #9b9b9b
+
+.bg-light-gray 
+  background-color: #e3e3e3
+.bg-red
+  background-color: #ff0000
+.bg-green
+  background-color: #7ed321
+.bg-blue
+  background-color: #0270c9
+.bg-light-yellow
+  background-color: #fff8e2
+.bg-light-blue
+  background-color: #e2f5ff
+.bg-light-green
+  background-color: #f2ffe2
+.bg-light-pink
+  background-color: #ffe2e2
+
+.m-0
+  margin: 0 
+
+.mob
+  display: flex
+  align-items: center 
+  justify-content: center
+  .min-width
+    min-width: 35px
+    display: none 
+    justify-content: flex-end
+
+.mob-inline
+  display: none
+  
+.mob-flex
+  display: none
+
+@import "media"

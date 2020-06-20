@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="История-заказов" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-579.000000, -14.000000)" id="Group-2">
+            <g transform="translate(579.000000, 14.000000)">
+                <circle id="Oval" fill-opacity="0.5" fill="#3DD93F" cx="14.5" cy="14.5" r="14.5"></circle>
+                <circle id="Oval" fill="#3CCF3E" cx="14.5" cy="14.5" r="10.5"></circle>
+                <line x1="9.5" y1="14.5" x2="19.5" y2="14.5" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+                <line x1="14.5" y1="10" x2="14.5" y2="20" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

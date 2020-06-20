@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="52px" viewBox="0 0 20 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="История-заказов" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-451.000000, -395.000000)" id="Group-3" stroke="#B4B4B4" stroke-width="3">
+            <g transform="translate(453.000000, 397.000000)">
+                <line x1="0.5" y1="0.5" x2="15.5" y2="23.5" id="Line-3"></line>
+                <line x1="0.5" y1="47.5" x2="15.5" y2="24.5" id="Line-3"></line>
+            </g>
+        </g>
+    </g>
+</svg>

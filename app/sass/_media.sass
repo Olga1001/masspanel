@@ -1,0 +1,223 @@
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 820px)
+  .header__container
+    padding: 0 20px
+@media only screen and (max-width : 819px)
+  .order-movement__box
+    padding: 10px
+  
+@media only screen and (max-width : 767px)
+  .order-movement__box
+    display: block
+    padding: 10px 0 20px
+  .order-movement__item
+    margin: 10px auto
+    p 
+      text-align: center
+  .order-movement__item.bg-light-yellow, .order-movement__item.bg-light-blue
+    margin-bottom: 30px
+  .order-movement__item.bg-light-yellow:before, .order-movement__item.bg-light-blue:before
+    left: 50%
+    top: 100%
+    transform: translate(-50%, 0%) rotate(90deg)
+    height: 30px
+    width: 30px
+  .order-movement__div
+    display: flex 
+    justify-content: center
+    .order-movement__item
+      margin: 0 10px
+  .footer 
+    padding: 40px 0
+    .row
+      display: block
+  .footer-link
+    display: block 
+    padding: 10px 0
+    text-align: center
+  .order
+    padding: 20px 10px 15px
+  .table__body_li:before
+    content: none
+  .order_title
+    font-size: 16px
+  .order__for-yt
+    width: 100%
+  .order__for-yt:nth-child(2n+2)
+    padding: 0
+  .order-by-video .text-16-bold
+    padding: 0 
+    text-align: center
+    width: 100%
+  .table__head_item, .table__body_item
+    // padding: 0!important
+    text-align: center
+    text-align: center
+    justify-content: center
+    width: 100%!important
+      
+  .table__body_li
+    flex-direction: column
+    .table__body_item
+      padding-right: 0!important
+      padding-left: 0!important
+      &:first-child
+        padding: 2px 0 0 0
+        p 
+          padding: 0
+  .d-mob-none 
+    display: none
+  .mob
+    width: 100%
+    padding: 5px 0
+    p 
+      min-width: 120px
+    .circle, .text-12, .min-width
+      display: flex 
+      margin: 0
+      padding: 0
+    .circle, .text-12
+      min-width: auto
+  .link-blue
+    justify-content: center
+    padding: 12px 0 14px
+    font-size: 16px
+  .order__bottom
+    flex-direction: column
+  .order__bottom .link-blue
+    padding: 0 0 15px 0 
+  .order__content
+    margin: 30px auto 0
+  .search
+    display: block
+    padding-top: 8px
+  .search-form
+    margin: 10px 0
+  .back
+    display: block 
+  .mob-inline
+    display: inline
+  .header .icon_add, .header .link
+    margin: 0
+  .burger
+    display: block
+  .icon_add
+    width: 36px
+    height: 36px
+  .icon_add_center
+    width: 26px
+    height: 26px
+  .icon_add:after
+    width: 13px
+  .icon_add:before 
+    height: 13px
+  .orders
+    padding-top: 9px
+  .order, .btn-more
+    width: calc(100% + 20px)
+    margin: 10px -10px 0
+  .table__head_item:first-child
+    padding: 0
+  .table__body_li
+    overflow: visible
+    padding-bottom: 3px 
+    margin-bottom: 11px
+  .table__body_li:before 
+    content: ''
+    height: 1px
+    left: 50%
+    transform: translateX(-50%)
+    border: none
+    background: #e8e8e9
+    width: 122px
+    top: 100%
+  li.table__head
+    margin-top: -5px
+  .table__body_li:last-child:before
+    content: none
+@media only screen and (max-width : 575px)
+  .order__top_col
+    padding: 0 0 0 20px
+    width: 100%
+    .more 
+      width: calc(100% + 20px + 120px)
+      margin-left: -140px
+      justify-content: center
+      padding-top: 10px
+      padding-bottom: 15px
+  .order__img
+    width: 120px
+    height: 68px
+  .order_title
+    min-height: 70px
+  .list
+    padding-top: 11px
+    width: calc(100% + 20px + 120px)
+    margin-left: -140px
+  .list-item
+    justify-content: center
+  .search-form input 
+    width: 100%
+    margin: 0 0 10px
+  .btn-submit
+    margin: 0 auto
+  .title_v2
+    font-size: 24px
+    text-align: center
+  .history .title_v2
+    margin-bottom: 40px
+  .popup
+    top: 0
+    left: 0
+    transform: none
+    height: 100vh
+    padding: 90px 20px
+    &.top
+      transform: none
+    .title_v2
+      font-size: 20px
+  .mob-flex
+    display: flex
+  .popup__info_col
+    display: flex 
+    flex-wrap: wrap
+    align-items: center
+    width: 100%!important
+    margin-right: 0!important
+    margin-bottom: 9px
+    &.mob-flex
+      margin-bottom: 21px
+
+    &.d-none 
+      display: none
+    &:first-child
+      margin-bottom: 17px
+      p, p.c-gray
+        padding: 0 
+        width: 100%
+        text-align: center
+        justify-content: center
+      .text-16
+        margin-top: 12px 
+    p, .popup__info-right
+      width: calc(53% - 25px)
+      .text-16
+        color: #0270c9
+    p.c-gray 
+      width: calc(47% + 25px)
+      padding-right: 25px
+      text-align: right
+      margin-bottom: 0
+  .popup__info
+    padding: 0
+  .popup .btn-gray
+    margin: 0 10px 0 0
+    background-color: #dcdcdc
+  .popup .title_v2
+    margin-bottom: 10px
+  .popup .status
+    margin: 0
+
