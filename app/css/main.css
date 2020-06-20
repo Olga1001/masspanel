@@ -138,7 +138,9 @@ body {
   letter-spacing: normal;
   color: #000000;
   font-size: 16px;
-  background-color: #151515; }
+  background-color: #151515;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 img {
   display: block;
@@ -584,7 +586,7 @@ strong {
       padding-right: 0; }
 
 .btn-gray {
-  width: 37px;
+  width: 38px;
   min-height: 27px;
   height: 100%;
   border-radius: 2px;
